@@ -1,0 +1,804 @@
+"","Age","Gender","Country","state","continent","self_employed","self_employed_score","benefits","benefits_score","remote_work","remote_work_score","leave","leave_score","wellness_program","wellness_program_score","work_freedom","family_history","family_history_score","anonymity","anonymity_score","treatment","treatment_score","work_interfere","work_interfere_score","care_options","care_options_score","seek_help","seek_help_score","mental_health_interview","mental_health_interview_score","phys_health_interview","phys_health_interview_score"
+"1",37,"F","United States","IL","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Often",0,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"2",32,"M","Canada",NA,"Americas","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"No",0,"No",0,"Yes",1,"Yes",1
+"3",31,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"Yes",1,"No",0,"Yes",1,"Often",0,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"4",31,"M","United States","TX","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Don't know",0.5,3,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"Yes",1,"Yes",1
+"5",33,"M","United States","TN","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"6",35,"F","United States","MI","Americas","No",0,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"No",0,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"7",39,"M","Canada",NA,"Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"No",0
+"8",42,"F","United States","IL","Americas","No",0,"Yes",1,"No",0,"Very difficult",0.5,"No",0,1.5,"Yes",1,"No",0,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"9",23,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"10",31,"M","United States","OH","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"11",36,"M","United States","CT","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"12",27,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Yes",1
+"13",29,"F","United States","IL","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"No",0,"Maybe",0.5,"Maybe",0.5
+"14",23,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"15",32,"M","United States","TN","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"16",46,"M","United States","MD","Americas","Yes",1,"Yes",1,"Yes",1,"Very easy",0.5,"Yes",1,4.5,"Yes",1,"Yes",1,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Yes",1
+"17",29,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"No",0,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"18",31,"M","United States","NC","Americas","Yes",1,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,2.5,"No",0.5,"Yes",1,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"19",46,"M","United States","MA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"20",33,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Not sure",0.5,"Yes",1,"No",0,"Yes",1
+"21",33,"M","United States","TN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"22",35,"F","United States","CA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Don't know",0.5,3,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"23",34,"M","United States","OH","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat difficult",0.5,"No",0,2,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"24",37,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"25",32,"M","United Kingdom",NA,"Europe","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"26",31,"M","United States","PA","Americas","Yes",1,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"No",0,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"27",30,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Yes",1
+"28",42,"M","United States","WA","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Yes",1,3.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"Maybe",0.5,"Yes",1
+"29",40,"F","United States","WI","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"30",27,"M","United States","NY","Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"31",29,"M","Canada",NA,"Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"32",50,"M","United States","IN","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"33",35,"M","United States","TX","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"No",0,2.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"34",24,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Yes",1
+"35",35,"M","United States","MI","Americas","No",0,"Yes",1,"Yes",1,"Somewhat difficult",0.5,"Don't know",0.5,3,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"36",27,"M","Canada",NA,"Americas","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"37",30,"M","United States","IN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"38",38,"F","United States","TX","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"39",28,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"Maybe",0.5,"Yes",1
+"40",34,"M","United States","TN","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"Maybe",0.5,"Yes",1
+"41",26,"M","Canada",NA,"Americas","Yes",1,"No",0,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0.5,"Don't know",0.5,"No",0,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"42",30,"M","United States","IL","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"Don't know",0.5,"No",0,"No",0
+"43",22,"M","United States","TX","Americas","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"44",33,"M","United States","UT","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"45",31,"M","United States",NA,"Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"46",32,"M","United States","TN","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"No",0,"No",0,"No",0
+"47",27,"Others","United States","NY","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"48",32,"Others","United States","TN","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"49",24,"M","United States","NY","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"Yes",1,"Yes",1
+"50",33,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat difficult",0.5,"No",0,2,"Yes",1,"No",0,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"51",27,"M","United Kingdom",NA,"Europe","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"52",35,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"53",40,"M","United States","CA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Yes",1,3.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"54",36,"M","United States","TX","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Don't know",0.5,3,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"Yes",1,"Maybe",0.5,"Yes",1
+"55",34,"M","United States","NY","Americas","Yes",1,"No",0,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0.5,"Don't know",0.5,"No",0,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"56",34,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"57",23,"Others","United States","MA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"No",0,"Yes",1,"No",0,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"58",38,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"Yes",1,"No",0,NA,NA,"No",0,"Don't know",0.5,"Maybe",0.5,"Yes",1
+"59",33,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Yes",1,2,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"60",19,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"No",0,"No",0,NA,NA,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"61",25,"M","United States","WA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Yes",1,3.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Yes",1,"Yes",1,"Maybe",0.5,"Yes",1
+"62",31,"M","United States","WA","Americas","Yes",1,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,2.5,"Yes",1,"Yes",1,"No",0,"Sometimes",2,"No",0,"No",0,"Maybe",0.5,"Maybe",0.5
+"63",32,"M","United States","UT","Americas","No",0,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Yes",1
+"64",38,"M","United States","NY","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"65",23,"M","United Kingdom",NA,"Europe","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"66",27,"Others","United States","NY","Americas","Yes",1,"Yes",1,"Yes",1,"Very easy",0.5,"Yes",1,4.5,"No",0.5,"Yes",1,"Yes",1,"Often",0,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"67",33,"M","United States","CA","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"68",31,"M","United States","TX","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"Maybe",0.5,"Maybe",0.5
+"69",39,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"No",0,"Very difficult",0.5,"No",0,1.5,"No",0.5,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"70",34,"F","United States","OR","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"71",29,"F","United States","FL","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"72",32,"M","United States","IL","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"No",0
+"73",31,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"74",40,"M","United States","TX","Americas","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Yes",1,"Yes",1
+"75",34,"M","United States","OH","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Maybe",0.5
+"76",25,"F","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"77",29,"M","United States","MN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"78",24,"M","United States","MO","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"79",33,"Others","United States","AZ","Americas","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"80",30,"M","United States","IN","Americas","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"81",44,"F","United States","MA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"82",25,"M","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"No",0
+"83",33,"M","United States","WI","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Yes",1,3.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"84",29,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"85",35,"M","United States","MO","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"No",0,"Rarely",1,"Not sure",0.5,"No",0,"No",0,"No",0
+"86",35,"M","United States","OR","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"87",34,"M","United States","TN","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"No",0
+"88",32,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"Yes",1,"No",0,"Maybe",0.5
+"89",22,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Yes",1
+"90",28,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"91",45,"M","United States","MO","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"No",0,2.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"Yes",1,"Yes",1
+"92",32,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"93",28,"M","United States","TX","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"94",26,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"95",18,"M","United States","CT","Americas","No",0,"No",0,"Yes",1,"Very easy",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"96",35,"M","United States","CO","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"97",29,"M","United States","GA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"98",25,"M","United States","DC","Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"99",33,"M","United States","MN","Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Don't know",0.5,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"100",36,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"No",0,"Often",0,"No",0,"No",0,"No",0,"No",0
+"101",27,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"No",0,"Never",0,"No",0,"Yes",1,"No",0,"Yes",1
+"102",27,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"103",32,"M","United States","OR","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"104",31,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"105",33,"M","United States","IL","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Yes",1
+"106",32,"M","United States","CA","Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"Yes",1,"No",0,"No",0,"Yes",1
+"107",27,"M","United States","NE","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"108",24,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Never",0,"No",0,"No",0,"Maybe",0.5,"Yes",1
+"109",28,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"No",0,"Yes",1,"No",0,"Never",0,"No",0,"No",0,"Maybe",0.5,"Maybe",0.5
+"110",39,"M","United States","IA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"No",0,"No",0,"No",0
+"111",29,"F","United States","MD","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"No",0
+"112",38,"M","United States","OR","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"No",0
+"113",30,"F","United States","PA","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"114",24,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Yes",1,"No",0,"Never",0,"No",0,"No",0,"No",0,"No",0
+"115",29,"F","United States","MI","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"116",19,"M","Canada",NA,"Americas","Yes",1,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,3,"Yes",1,"Yes",1,"No",0,NA,NA,"Not sure",0.5,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"117",32,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"118",36,"M","United States","IL","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"119",27,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"120",27,"M","United States","UT","Americas","No",0,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"121",25,"M","United States","IL","Americas","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"No",0
+"122",25,"F","United States","NY","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"123",31,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Yes",1,"No",0,"No",0
+"124",26,"M","United States","MA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"125",33,"F","United States","WA","Americas","Yes",1,"No",0,"No",0,"Very difficult",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Yes",1
+"126",27,"Others","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"Yes",1,"Yes",1,"No",0,NA,NA,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"127",34,"M","United States","MN","Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"128",42,"M","United States","CA","Americas","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"129",24,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"Yes",1,2,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"130",26,"M","United Kingdom",NA,"Europe","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Don't know",0.5,2,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"131",31,"M","United Kingdom",NA,"Europe","Yes",1,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,2,"No",0.5,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"132",23,"F","United States","NC","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"133",31,"M","United States","MO","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"134",32,"F","United States","MA","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Don't know",0.5,3,"No",0,"Yes",1,"Yes",1,"Often",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"135",45,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"136",33,"M","United States","TX","Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Maybe",0.5
+"137",28,"F","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Yes",1,"No",0,"Never",0,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"138",45,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"139",43,"M","United States","WA","Americas","No",0,"Yes",1,"Yes",1,"Very difficult",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"140",37,"M","United States","MA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"Maybe",0.5,"Yes",1
+"141",24,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"Don't know",0.5,"Maybe",0.5,"Yes",1
+"142",23,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"Maybe",0.5,"Yes",1
+"143",35,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Don't know",0.5,2,"Yes",1,"Yes",1,"Yes",1,"Never",0,"Not sure",0.5,"No",0,"No",0,"No",0
+"144",28,"M","United States","MI","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"145",35,"M","United States","CA","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"146",35,"F","United States","NY","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"No",0,"No",0,"No",0
+"147",26,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Yes",1,"No",0,"Rarely",1,"No",0,"No",0,"No",0,"Maybe",0.5
+"148",27,"M","United States","TN","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"149",28,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"150",27,"F","United States","OR","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"151",41,"M","United States","FL","Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"No",0,"Maybe",0.5,"Maybe",0.5
+"152",32,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Somewhat difficult",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"No",0
+"153",21,"M","Canada",NA,"Americas","No",0,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"154",30,"M","United States","MA","Americas","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"155",24,"M","United States","KS","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"156",40,"F","United States","DC","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,NA,NA,"Yes",1,"Yes",1,"No",0,"No",0
+"157",26,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0.5,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"158",32,"F","United States","TX","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"No",0,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"159",27,"F","United States","MI","Americas","Yes",1,"No",0,"Yes",1,"Very difficult",0.5,"Don't know",0.5,3,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"No",0
+"160",31,"M","Canada",NA,"Americas","Yes",1,"Yes",1,"No",0,"Very easy",0.5,"No",0,2.5,"No",0.5,"Yes",1,"No",0,NA,NA,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"161",41,"Others","United States","VA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"No",0
+"162",34,"F","United States","WA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"Maybe",0.5,"Maybe",0.5
+"163",33,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"Yes",1,"Yes",1
+"164",28,"M","United States","PA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"No",0,"No",0,"No",0,"Maybe",0.5
+"165",28,"M","United States","MI","Americas","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"166",23,"M","United States","PA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Yes",1
+"167",24,"M","United States","OR","Americas","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"Don't know",0.5,1.5,"No",0,"Yes",1,"No",0,NA,NA,"No",0,"No",0,"Maybe",0.5,"Yes",1
+"168",32,"M","United States","WA","Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"169",24,"M","United States","PA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"170",26,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"No",0,"Don't know",0.5,"No",0,1.5,"No",0.5,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"171",36,"M","United States","OH","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Yes",1,"No",0,"Maybe",0.5
+"172",41,"M","United States","TX","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"173",38,"M","United States","NH","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"174",25,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"175",37,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"Don't know",0.5,"No",0,"Yes",1
+"176",34,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"Yes",1,"Yes",1,"No",0,NA,NA,"No",0,"No",0,"No",0,"Yes",1
+"177",34,"M","United States","FL","Americas","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"178",33,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"179",27,"M","United States","GA","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Don't know",0.5,3,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"180",40,"M","United States","OH","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Yes",1,3.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"181",32,"M","United States","NC","Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Yes",1
+"182",28,"M","United States","GA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"183",31,"M","United States","CA","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Yes",1,3.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"184",24,"M","United States","VA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"185",29,"M","Canada",NA,"Americas","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Often",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"186",23,"F","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"187",42,"M","United States","WA","Americas","No",0,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"188",24,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Yes",1
+"189",27,"F","United States","TX","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"Maybe",0.5
+"190",27,"M","Canada",NA,"Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"No",0,"No",0,"No",0,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"191",30,"M","United States","FL","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"Maybe",0.5,"No",0
+"192",43,"M","Canada",NA,"Americas","Yes",1,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"No",0.5,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"Yes",1,"Yes",1
+"193",32,"M","United States","NV","Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"194",41,"M","United States","AL","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Don't know",0.5,3,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Yes",1,"Yes",1
+"195",32,"M","United Kingdom",NA,"Europe","Yes",1,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Don't know",0.5,3.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"196",37,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Yes",1
+"197",32,"M","United States","CO","Americas","No",0,"No",0,"Yes",1,"Very easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"No",0
+"198",30,"M","United States","NJ","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,NA,NA,"Yes",1,"Yes",1,"No",0,"No",0
+"199",34,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"200",38,"M","United States","PA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"Maybe",0.5
+"201",33,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,NA,NA,"No",0,"Yes",1,"No",0,"No",0
+"202",23,"M","United States","PA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"203",18,"M","United States","TX","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"204",35,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"205",27,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"No",0,"Yes",1,"Yes",1
+"206",26,"F","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"207",18,"M","United States","WA","Americas","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"208",38,"F","United States","TX","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"209",26,"F","United States","TX","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Yes",1,3.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"210",35,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"211",45,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"212",32,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"213",56,"M","United States",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"Yes",1,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"214",24,"F","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"215",30,"F","United States","SC","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Yes",1
+"216",60,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"217",33,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Yes",1,"No",0,"Maybe",0.5
+"218",37,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"219",23,"F","United States","NY","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"220",31,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Don't know",0.5,2,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"221",26,"M","United States","MA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"222",37,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"223",26,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"224",30,"Others","United States","IL","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"No",0,"No",0,"No",0
+"225",26,"M","United States","IN","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"226",25,"M","United States","OR","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"227",27,"M","United States","TN","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"228",35,"M","United States","OR","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"229",36,"M","United States","WA","Americas","Yes",1,"No",0,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0.5,"Don't know",0.5,"Yes",1,"Never",0,"Yes",1,"No",0,"No",0,"No",0
+"230",26,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"231",27,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"232",22,"F","United States","NY","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"Yes",1,"No",0,"No",0
+"233",41,"M","United States","SD","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Don't know",0.5,3,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"234",29,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"235",32,"M","United States","OR","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Don't know",0.5,2,"No",0,"Yes",1,"No",0,"Never",0,"Not sure",0.5,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"236",24,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"237",25,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"238",25,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"239",30,"F","United States","CO","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"240",25,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"241",30,"M","United States","OH","Americas","Yes",1,"No",0,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0.5,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"242",24,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,NA,NA,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"243",25,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"244",46,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"245",30,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"246",29,"F","United States","CA","Americas","Yes",1,"Yes",1,"No",0,"Very easy",0.5,"Don't know",0.5,3,"No",0.5,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"No",0
+"247",24,"M","United States","MA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Yes",1,"No",0,NA,NA,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"248",29,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,NA,NA,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"249",33,"F","United States","WA","Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"250",27,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"251",36,"M","United States","IA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"252",33,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"No",0,"No",0,"No",0,"Maybe",0.5
+"253",25,"F","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"254",54,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Yes",1,2,"Yes",1,"Don't know",0.5,"Yes",1,"Never",0,"No",0,"Yes",1,"No",0,"No",0
+"255",22,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"256",25,"Others","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"257",27,"M","United States","MA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Yes",1
+"258",30,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"259",26,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"260",33,"M","United States","IN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"No",0
+"261",34,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"262",34,"M","United States","WA","Americas","No",0,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"263",29,"M","United States","IN","Americas","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"No",0,2.5,"No",0.5,"Yes",1,"No",0,NA,NA,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"264",33,"Others","United States","WA","Americas","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"265",28,"M","United States","GA","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat difficult",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"266",35,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"No",0,NA,NA,"No",0,"Yes",1,"No",0,"No",0
+"267",36,"M","United States",NA,"Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"No",0
+"268",21,"M","United States","IN","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"269",22,"F","United States","WA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,NA,NA,"No",0,"Yes",1,"No",0,"No",0
+"270",41,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"Yes",1,"No",0,"Maybe",0.5
+"271",55,"M","United States","PA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"272",32,"F","United States","WA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"273",21,"F","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"No",0,"No",0,"Yes",1
+"274",45,"M","United States","MA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Don't know",0.5,3,"No",0,"Don't know",0.5,"Yes",1,"Never",0,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"275",27,"F","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"276",25,"F","United States","WA","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"277",26,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"278",41,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"279",27,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"No",0,"Yes",1,"No",0,"Maybe",0.5
+"280",31,"Others","United States","IN","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"281",26,"M","United States","NV","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"282",27,"F","United States","CO","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"283",29,"Others","United States","CA","Americas","Yes",1,"Yes",1,"Yes",1,"Very difficult",0.5,"No",0,3.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"284",25,"F","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat difficult",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"285",31,"M","United States","SC","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"286",26,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Don't know",0.5,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"287",48,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"288",35,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"289",32,"F","United States","AL","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"290",29,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"Don't know",0.5,1.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"291",26,"M","United States","OR","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"No",0
+"292",28,"M","United States","NJ","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"293",23,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"294",35,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very difficult",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"295",26,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"No",0,NA,NA,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"296",33,"M","United States","NH","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Yes",1,3.5,"Yes",1,"Don't know",0.5,"Yes",1,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"297",33,"M","United States","CA","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"298",33,"M","United States","OH","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"No",0
+"299",21,"M","United States","MA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"300",31,"Others","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Yes",1
+"301",26,"F","United States","OK","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat difficult",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"302",30,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Often",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"303",55,"M","United States","ID","Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"304",32,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"No",0
+"305",24,"M","United States","TX","Americas","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"306",24,"F","United States","OR","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,NA,NA,"Yes",1,"Yes",1,"Yes",1,"Yes",1
+"307",28,"M","Canada",NA,"Americas","Yes",1,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,3,"No",0.5,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"No",0
+"308",24,"F","United States","NY","Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"Yes",1
+"309",33,"M","United States","MS","Americas","Yes",1,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"No",0.5,"Yes",1,"Yes",1,"Often",0,"No",0,"No",0,"Yes",1,"Yes",1
+"310",34,"M","United States","NJ","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"311",27,"F","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat difficult",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"No",0
+"312",28,"M","United States","TN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"313",26,"M","United States","WA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"314",23,"F","United States","MA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"315",29,"M","United States","PA","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Yes",1,3.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"316",26,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"317",36,"M","United States","KY","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Yes",1,3.5,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"No",0,"Don't know",0.5,"No",0,"No",0
+"318",41,"M","United States","PA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"Maybe",0.5,"Yes",1
+"319",33,"F","United States","MA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Don't know",0.5,3,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"320",23,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"321",39,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"No",0,"Often",0,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"322",34,"M","United States","VT","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"323",26,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"324",24,"M","United States","AZ","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"325",43,"M","United States","MA","Americas","Yes",1,"Yes",1,"Yes",1,"Very easy",0.5,"No",0,3.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"326",40,"Others","United States","VA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"No",0,"Never",0,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"327",30,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Very difficult",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"No",0
+"328",34,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"No",0
+"329",27,"M","United States","OR","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Yes",1
+"330",36,"M","United States","MI","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Yes",1,"No",0,"Sometimes",2,"No",0,"No",0,"Maybe",0.5,"Yes",1
+"331",32,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Yes",1
+"332",37,"M","United States","OR","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"333",29,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"334",33,"Others","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"335",28,"Others","United States","UT","Americas","No",0,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"336",26,"F","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat difficult",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"337",27,"M","United States","TX","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"Yes",1,3,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"338",38,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"No",0.5,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"339",57,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"340",28,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"No",0,"No",0,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"341",31,"M","United States","OR","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Yes",1,3.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"342",58,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"Yes",1
+"343",29,"M","United States","OH","Americas","No",0,"Don't know",0.5,"No",0,"Very difficult",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"344",39,"F","United Kingdom",NA,"Europe","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"345",34,"M","United States","OH","Americas","No",0,"Don't know",0.5,"Yes",1,"Very difficult",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"346",57,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"347",30,"F","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"348",43,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Yes",1
+"349",18,"F","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"350",29,"M","United States","IL","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"351",48,"M","United States","TX","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"352",28,"F","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"353",30,"M","United States","CA","Americas","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"No",0,2.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"No",0
+"354",31,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Yes",1,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"355",24,"F","United States","CA","Americas","Yes",1,"No",0,"Yes",1,"Don't know",0.5,"Don't know",0.5,3,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"No",0
+"356",25,"M","United States","WA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"357",23,"F","United States","NY","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"No",0,"No",0,"No",0
+"358",25,"F","United States","CA","Americas","Yes",1,"Don't know",0.5,"Yes",1,"Somewhat difficult",0.5,"No",0,3,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"359",38,"F","United States","AZ","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,NA,NA,"Yes",1,"No",0,"No",0,"No",0
+"360",32,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"361",35,"F","United States","OH","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"362",46,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"363",32,"M","United Kingdom",NA,"Europe","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"Maybe",0.5,"Maybe",0.5
+"364",47,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Yes",1
+"365",22,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"366",33,"F","United States","NY","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Yes",1,3.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"367",25,"F","United States","WA","Americas","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"No",0,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"368",29,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"369",39,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"370",38,"M","United States","VA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"371",43,"M","United States","NC","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"No",0
+"372",46,"M","United States","OH","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Yes",1,3.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"373",34,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"No",0
+"374",62,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"375",36,"M","United States","IL","Americas","Yes",1,"Don't know",0.5,"Yes",1,"Somewhat difficult",0.5,"Don't know",0.5,3.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Yes",1
+"376",41,"F","United States",NA,"Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Yes",1,3.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"377",29,"M","United States","NC","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"378",31,"F","Canada",NA,"Americas","Yes",1,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,3.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"379",27,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Yes",1
+"380",21,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"381",39,"M","United States","WI","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Yes",1,3.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"Yes",1,"No",0,"No",0
+"382",26,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"383",27,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"No",0
+"384",22,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"385",31,"F","United States","PA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"386",32,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"Yes",1,"Yes",1
+"387",28,"F","United States","CA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"388",28,"Others","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Not sure",0.5,"No",0,"Yes",1,"No",0
+"389",23,"F","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"Yes",1
+"390",30,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"391",36,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Yes",1,"No",0,"Yes",1
+"392",21,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"No",0,NA,NA,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"393",29,"F","Canada",NA,"Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"394",21,"Others","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"Yes",1,1.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"395",33,"M","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"396",24,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"397",27,"M","United States","OR","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"No",0
+"398",36,"M","United States","CO","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"399",40,"M","Canada",NA,"Americas","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"No",0
+"400",28,"M","United States","GA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"401",39,"M","United States","OR","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"402",32,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Yes",1,"Maybe",0.5,"Yes",1
+"403",31,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Yes",1
+"404",38,"Others","United States","PA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"405",23,"M","United States","CA","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"406",42,"Others","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Often",0,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"407",27,"F","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"408",26,"F","United States","MA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"409",50,"M","United States",NA,"Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"410",37,"M","United States","PA","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"411",23,"M","United States","RI","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Maybe",0.5
+"412",33,"M","United States","MI","Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"No",0,2,"Yes",1,"Yes",1,"No",0,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"No",0
+"413",29,"M","Canada",NA,"Americas","Yes",1,"Yes",1,"Yes",1,"Very difficult",0.5,"No",0,3.5,"No",0.5,"Yes",1,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"Yes",1
+"414",41,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"No",0
+"415",50,"M","United States","OR","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"416",35,"M","United States","IN","Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"417",29,"F","United States","MI","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"418",31,"M","United States","OH","Americas","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"419",43,"M","United States","OH","Americas","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"420",34,"M","United States","NH","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Yes",1
+"421",29,"M","United States","OH","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat difficult",0.5,"No",0,1,"Yes",1,"No",0,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"422",19,"M","Canada",NA,"Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"423",41,"M","United States","TN","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"424",29,"M","United States","OR","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"425",23,"M","United States","PA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"426",24,"F","United States",NA,"Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"No",0
+"427",31,"M","United States","NY","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"428",43,"M","United States","WA","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"429",31,"M","United States","NY","Americas","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"Don't know",0.5,"No",0,"No",0
+"430",29,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"No",0,"Often",0,"Yes",1,"Yes",1,"No",0,"No",0
+"431",35,"M","United States","TN","Americas","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"Yes",1,3.5,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"No",0,"Yes",1,"No",0,"Maybe",0.5
+"432",27,"M","United States","PA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Yes",1,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"433",32,"M","United States","MI","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"434",50,"M","United States","WY","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"435",27,"M","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Maybe",0.5
+"436",32,"M","United States","TX","Americas","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"437",29,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"438",30,"M","United States","GA","Americas","Yes",1,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,2.5,"No",0.5,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"439",35,"M","United States","MI","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"440",22,"M","United Kingdom",NA,"Europe","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Maybe",0.5,"Yes",1
+"441",31,"F","United States","WA","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Yes",1
+"442",23,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"443",31,"F","United States","OR","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"444",28,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"445",34,"M","United States","CA","Americas","Yes",1,"No",0,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"446",32,"Others","Canada",NA,"Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"No",0,"Yes",1,"No",0,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"447",28,"M","United States","MI","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"448",24,"F","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"449",56,"Others","United States","MA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"450",34,"F","United States","CA","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"451",30,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"Yes",1,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"452",35,"M","United States",NA,"Americas","Yes",1,"Yes",1,"Yes",1,"Very easy",0.5,"No",0,3.5,"No",0.5,"Yes",1,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"No",0
+"453",57,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"454",29,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"455",54,"M","United Kingdom",NA,"Europe","Yes",1,"Don't know",0.5,"Yes",1,"Very easy",0.5,"No",0,3,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"Yes",1,"Yes",1
+"456",30,"M","United Kingdom",NA,"Europe","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Yes",1
+"457",27,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"458",32,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"459",23,"M","United States","NC","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"460",26,"Others","Canada",NA,"Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Don't know",0.5,3,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"461",35,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"462",29,"F","United States","OH","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"463",45,"M","United States","VA","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"464",21,"F","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"465",33,"F","United States","NC","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"466",49,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"467",28,"M","United States","NM","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"468",27,"F","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Yes",1,3,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"469",23,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"470",28,"F","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"471",32,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Yes",1
+"472",29,"M","United States","SC","Americas","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"No",0
+"473",33,"M","United States","WA","Americas","Yes",1,"No",0,"Yes",1,"Very difficult",0.5,"Yes",1,3.5,"Yes",1,"No",0,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"474",37,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"475",32,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"Maybe",0.5
+"476",26,"M","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"No",0,"No",0,"No",0
+"477",32,"M","United States","NY","Americas","Yes",1,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Don't know",0.5,3.5,"No",0.5,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"Yes",1,"Yes",1
+"478",37,"F","United States","MO","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"479",29,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"480",34,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Maybe",0.5
+"481",30,"M","United States","TN","Americas","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"482",29,"M","United States","CO","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"483",32,"M","United States","PA","Americas","Yes",1,"Yes",1,"Yes",1,"Very difficult",0.5,"Don't know",0.5,4,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"484",37,"M","United States","NY","Americas","Yes",1,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Yes",1,4.5,"No",0.5,"Yes",1,"No",0,NA,NA,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"485",27,"Others","United States","MN","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"486",33,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Maybe",0.5
+"487",29,"M","Canada",NA,"Americas","No",0,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"488",25,"M","United States","MO","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Yes",1,3,"Yes",1,"Don't know",0.5,"Yes",1,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"489",37,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"No",0,"Maybe",0.5,"Yes",1
+"490",29,"M","United States","MD","Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"No",0
+"491",33,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"492",27,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Yes",1,"No",0,NA,NA,"No",0,"Yes",1,"No",0,"Yes",1
+"493",39,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Yes",1
+"494",31,"M","United States","TX","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"Maybe",0.5,"Yes",1
+"495",36,"M","United States","OH","Americas","No",0,"Yes",1,"Yes",1,"Very difficult",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"496",30,"M","United States","TX","Americas","Yes",1,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,3.5,"No",0.5,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Yes",1
+"497",28,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"No",0,"Yes",1,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"498",35,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"499",19,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Somewhat difficult",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Yes",1
+"500",37,"M","United States","MI","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"501",36,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"502",26,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"503",31,"M","Canada",NA,"Americas","Yes",1,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"Yes",1,"Yes",1,"No",0,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"504",27,"F","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"Yes",1,2,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"505",33,"F","United States","AZ","Americas","Yes",1,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,3.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"506",27,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"Yes",1,"Yes",1
+"507",36,"F","United States","CA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"Yes",1,"Never",0,"No",0,"No",0,"No",0,"No",0
+"508",28,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"No",0,"Maybe",0.5,"Yes",1
+"509",33,"M","United States","VA","Americas","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"No",0,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"510",37,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"Maybe",0.5
+"511",43,"Others","United States","VA","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"512",27,"F","United States","WA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"513",31,"F","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"Maybe",0.5,"Maybe",0.5
+"514",43,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Never",0,"No",0,"Don't know",0.5,"Yes",1,"Yes",1
+"515",33,"M","United States","WI","Americas","No",0,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Yes",1,"Yes",1
+"516",34,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"Don't know",0.5,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"517",33,"M","United States","CA","Americas","Yes",1,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,2,"No",0.5,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Maybe",0.5
+"518",25,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"519",32,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"No",0,NA,NA,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"520",25,"M","United States","CO","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"521",29,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"522",33,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"523",37,"F","United States","TX","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat difficult",0.5,"No",0,2,"No",0,"Yes",1,"Yes",1,"Often",0,"Not sure",0.5,"No",0,"No",0,"Yes",1
+"524",22,"F","United States","WA","Americas","No",0,"Don't know",0.5,"No",0,"Very difficult",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"525",38,"M","United States","MI","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"526",32,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"527",35,"F","United States","CA","Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"528",23,"M","United States","CA","Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"529",39,"M","United States","CT","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"530",30,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,NA,NA,"Yes",1,"Yes",1,"No",0,"No",0
+"531",32,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"532",28,"Others","United States","CA","Americas","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"533",36,"F","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"534",27,"M","United States","IN","Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"535",41,"M","United States","TX","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"536",29,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"537",29,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"538",28,"M","United States","NV","Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Never",0,"Yes",1,"No",0,"No",0,"No",0
+"539",36,"F","United Kingdom",NA,"Europe","Yes",1,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,3.5,"No",0.5,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"540",39,"F","United States","WA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Yes",1
+"541",39,"M","United States","FL","Americas","No",0,"Yes",1,"No",0,"Very difficult",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"542",44,"M","United States",NA,"Americas","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"No",0,2.5,"Yes",1,"No",0,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"543",38,"M","United States","IL","Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"No",0,"No",0,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"No",0
+"544",34,"M","United States","FL","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"545",43,"M","United States","MA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Yes",1,"No",0,"Maybe",0.5
+"546",48,"Others","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Very difficult",0.5,"No",0,1,"Yes",1,"No",0,"No",0,"Often",0,"No",0,"No",0,"No",0,"No",0
+"547",20,"M","United States","WA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"548",40,"M","United States","MI","Americas","Yes",1,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,3,"No",0.5,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"No",0
+"549",29,"F","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"Maybe",0.5
+"550",40,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"551",29,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"552",34,"M","United States","TX","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Yes",1
+"553",24,"F","United States","NY","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Yes",1
+"554",47,"F","United States","PA","Americas","No",0,"Don't know",0.5,"Yes",1,"Very difficult",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"No",0,"No",0
+"555",36,"M","United States","PA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"556",36,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,2.5,"No",0.5,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"557",31,"F","United States","NY","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"558",35,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Yes",1,2,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"559",34,"M","United States","TN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Yes",1,2,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"No",0
+"560",40,"M","United States","TN","Americas","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"No",0,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"561",40,"M","United States","IL","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Rarely",1,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"562",42,"M","United States","WI","Americas","No",0,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"563",23,"M","United States","KY","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Yes",1,"No",0,NA,NA,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"564",26,"M","Canada",NA,"Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"565",31,"M","United States",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"No",0
+"566",25,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"No",0,NA,NA,"Yes",1,"Yes",1,"Maybe",0.5,"Yes",1
+"567",51,"M","United States","MN","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Yes",1,3.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"568",24,"M","United States","TN","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"Don't know",0.5,1.5,"No",0,"Yes",1,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"569",33,"M","United States","MN","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"570",26,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Somewhat difficult",0.5,"Don't know",0.5,3,"No",0.5,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"571",33,"M","United States","TN","Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"572",34,"M","United Kingdom",NA,"Europe","No",0,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,1.5,"No",0,"No",0,"No",0,NA,NA,"No",0,"No",0,"No",0,"Yes",1
+"573",35,"M","United States","DC","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"574",39,"M","United States","KS","Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"575",56,"M","United States","CA","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Don't know",0.5,3,"No",0,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"Yes",1,"Yes",1
+"576",32,"F","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Somewhat difficult",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Yes",1
+"577",39,"M","United States","TN","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"578",30,"M","United States","CA","Americas","Yes",1,"Don't know",0.5,"Yes",1,"Very difficult",0.5,"No",0,3,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"579",31,"M","United States","TN","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,NA,NA,"No",0,"No",0,"No",0,"Maybe",0.5
+"580",31,"M","United States","CO","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Never",0,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"581",29,"M","United States","TN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"582",30,"Others","United States","GA","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Don't know",0.5,3,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"583",37,"M","United States","TN","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Yes",1,3.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"584",36,"M","United States","VA","Americas","Yes",1,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,2.5,"No",0.5,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"Yes",1,"Yes",1
+"585",35,"M","United States","TN","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"586",31,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"No",0,"No",0,"No",0
+"587",39,"M","United States","TN","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"588",32,"M","United States","TN","Americas","Yes",1,"No",0,"Yes",1,"Very difficult",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"589",29,"M","United States","TN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"590",30,"M","United States","TN","Americas","No",0,"Yes",1,"No",0,"Very difficult",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"No",0,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"591",40,"M","United States","TN","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Yes",1
+"592",33,"M","United States","IN","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"593",50,"M","United States","VA","Americas","Yes",1,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"No",0.5,"Yes",1,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"594",24,"M","United States","TX","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"595",43,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"596",25,"F","United States","CA","Americas","Yes",1,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,3.5,"No",0.5,"Yes",1,"Yes",1,"Often",0,"Yes",1,"Yes",1,"No",0,"No",0
+"597",24,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"No",0,2.5,"No",0.5,"Yes",1,"No",0,NA,NA,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"598",51,"M","United States","CO","Americas","Yes",1,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"No",0.5,"Yes",1,"No",0,"Never",0,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"599",49,"M","United States","OR","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"600",30,"M","United States","OK","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Yes",1,3.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Yes",1,"No",0,"No",0
+"601",25,"F","United States","OH","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"602",36,"M","United States","TN","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Don't know",0.5,3,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"603",48,"M","United States","VA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Never",0,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"604",53,"M","United States","OR","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"605",24,"F","United Kingdom",NA,"Europe","No",0,"No",0,"Yes",1,"Very easy",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"No",0
+"606",33,"M","United States","OR","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"607",25,"F","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"608",30,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"609",30,"M","United States","PA","Americas","Yes",1,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"No",0.5,"Yes",1,"No",0,"Never",0,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"610",34,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Somewhat difficult",0.5,"No",0,2.5,"No",0.5,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"611",31,"M","United States","SC","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Yes",1,3.5,"No",0,"Yes",1,"No",0,NA,NA,"Yes",1,"Yes",1,"Maybe",0.5,"Yes",1
+"612",22,"F","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"613",28,"M","United States","TN","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Yes",1
+"614",33,"M","United States","MO","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"No",0,"Don't know",0.5,"Yes",1,"Yes",1
+"615",29,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"616",29,"M","United States","NY","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"617",25,"M","United States","TX","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Yes",1,"No",0,NA,NA,"No",0,"No",0,"Maybe",0.5,"Maybe",0.5
+"618",31,"M","United States","MO","Americas","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"619",34,"M","United States","TX","Americas","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Often",0,"No",0,"Yes",1,"No",0,"Maybe",0.5
+"620",43,"Others","United States","WA","Americas","No",0,"Yes",1,"Yes",1,"Very difficult",0.5,"No",0,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"621",38,"M","United States","WA","Americas","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"622",26,"M","United States","WA","Americas","No",0,"Don't know",0.5,"No",0,"Very difficult",0.5,"No",0,1,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Not sure",0.5,"Yes",1,"Yes",1,"Yes",1
+"623",42,"M","United States","TX","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"624",32,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"625",44,"M","United States","WA","Americas","No",0,"Yes",1,"Yes",1,"Somewhat difficult",0.5,"Yes",1,3.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"626",28,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"627",40,"M","United States","WA","Americas","No",0,"Yes",1,"Yes",1,"Very difficult",0.5,"Yes",1,3.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"628",31,"F","United States","AZ","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"629",32,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"630",28,"M","United States","WA","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"Don't know",0.5,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"631",39,"M","United States","AZ","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"No",0
+"632",43,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"Maybe",0.5,"Yes",1
+"633",35,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very difficult",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"634",40,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Don't know",0.5,2,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"635",36,"Others","United States","WA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"Don't know",0.5,"No",0,"No",0
+"636",38,"M","United States","TN","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Yes",1,"No",0,NA,NA,"No",0,"No",0,"Maybe",0.5,"Maybe",0.5
+"637",26,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"638",33,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"639",32,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Maybe",0.5
+"640",24,"M","United Kingdom",NA,"Europe","Yes",1,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,3,"Yes",1,"Don't know",0.5,"No",0,"Often",0,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"641",33,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Very difficult",0.5,"No",0,2.5,"Yes",1,"No",0,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"642",26,"F","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"643",25,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"644",33,"F","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"Yes",1,3.5,"No",0.5,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"645",43,"M","United States","MI","Americas","No",0,"No",0,"Yes",1,"Very difficult",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"646",30,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"No",0,"Very difficult",0.5,"No",0,1.5,"No",0.5,"No",0,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"647",40,"M","United States","IN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"648",49,"M","United States","GA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"No",0
+"649",38,"Others","United States","WA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"650",28,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"No",0
+"651",40,"M","United States","ME","Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"652",37,"F","Canada",NA,"Americas","Yes",1,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"653",28,"M","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Yes",1
+"654",27,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Never",0,"Not sure",0.5,"No",0,"Maybe",0.5,"Maybe",0.5
+"655",29,"M","United Kingdom",NA,"Europe","No",0,"No",0,"Yes",1,"Very easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Yes",1
+"656",39,"F","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Somewhat difficult",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"No",0,"Rarely",1,"Not sure",0.5,"No",0,"No",0,"No",0
+"657",28,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"No",0,"No",0,"No",0,"Often",0,"No",0,"No",0,"No",0,"Yes",1
+"658",23,"M","United States","PA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"No",0,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"659",38,"M","United Kingdom",NA,"Europe","No",0,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Yes",1,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"660",19,"M","United Kingdom",NA,"Europe","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"Yes",1,"No",0,"No",0
+"661",30,"F","United States","IL","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"662",28,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"No",0,2.5,"No",0.5,"Yes",1,"No",0,NA,NA,"Yes",1,"No",0,"No",0,"No",0
+"663",35,"M","United Kingdom",NA,"Europe","Yes",1,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,2,"No",0.5,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"664",39,"M","United States","MN","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"No",0,2.5,"No",0,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"665",32,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"666",25,"M","United States","PA","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"667",42,"M","United States","IN","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"668",34,"M","United States","PA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"669",26,"F","United States","OH","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"670",35,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"671",34,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"672",34,"M","United States","SD","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"673",39,"M","United States","IN","Americas","No",0,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Maybe",0.5,"Yes",1
+"674",44,"F","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"No",0
+"675",33,"F","United States","TX","Americas","Yes",1,"No",0,"Yes",1,"Somewhat easy",0.5,"Don't know",0.5,3,"No",0.5,"Yes",1,"No",0,"Never",0,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"676",38,"F","United States","OR","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,2.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"677",31,"M","United States","SD","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"No",0,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"678",26,"F","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"679",30,"M","United States","CA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"680",25,"M","United States",NA,"Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"No",0,"No",0,"No",0,"Yes",1
+"681",19,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"682",32,"M","United States","TN","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"683",32,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"Maybe",0.5
+"684",37,"M","United States","IN","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"685",42,"M","United States","CA","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"No",0
+"686",25,"F","United States","OR","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"Yes",1,"Maybe",0.5,"No",0
+"687",19,"M","United States","IN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"No",0,"Maybe",0.5,"Maybe",0.5
+"688",40,"F","United States","GA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Yes",1,3.5,"Yes",1,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"No",0
+"689",26,"M","United States","MN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"No",0
+"690",31,"M","United States","MN","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"691",31,"F","United States","FL","Americas","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"Yes",1,"No",0,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"Yes",1
+"692",35,"M","Canada",NA,"Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"693",34,"F","United States","CA","Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"694",35,"M","United States","OR","Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"695",28,"F","United States","OH","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"696",33,"M","United States","NY","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Don't know",0.5,3,"No",0,"Yes",1,"No",0,NA,NA,"No",0,"Yes",1,"No",0,"No",0
+"697",40,"M","United States","WI","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"698",26,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"699",26,"F","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"700",39,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Somewhat difficult",0.5,"Yes",1,3.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"701",26,"F","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"702",36,"M","United States","FL","Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"703",39,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"704",27,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"705",33,"M","United States","FL","Americas","Yes",1,"Don't know",0.5,"Yes",1,"Very easy",0.5,"No",0,3,"No",0.5,"No",0,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"706",31,"Others","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"707",28,"F","United States","OR","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Don't know",0.5,2,"No",0,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"Yes",1
+"708",27,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Very difficult",0.5,"No",0,1,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"709",44,"M","United States","FL","Americas","Yes",1,"Don't know",0.5,"Yes",1,"Somewhat difficult",0.5,"No",0,3,"No",0.5,"Yes",1,"No",0,"Never",0,"No",0,"No",0,"No",0,"No",0
+"710",25,"M","United States","UT","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"711",34,"M","United States","NJ","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"Don't know",0.5,3,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"712",39,"F","United States","OH","Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"713",43,"M","United States","OH","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"No",0
+"714",41,"M","United States","IL","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"715",31,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"716",40,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"717",43,"M","United States","VA","Americas","Yes",1,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,3.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"718",27,"F","United States","WA","Americas","No",0,"Yes",1,"No",0,"Very difficult",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"719",37,"F","United States","NJ","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"720",25,"M","United States","UT","Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"721",32,"M","United States","IN","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"722",28,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"723",11,"M","United States","OH","Americas","Yes",1,"No",0,"Yes",1,"Very easy",0.5,"No",0,2.5,"No",0.5,"Yes",1,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"724",32,"M","United States","TN","Americas","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Yes",1
+"725",25,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"726",37,"M","United States","UT","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"Yes",1,"No",0,"No",0
+"727",24,"M","United States","WI","Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"No",0,"Maybe",0.5,"Yes",1
+"728",40,"M","United States","WA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"729",43,"M","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"No",0
+"730",29,"M","United States","NY","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"Yes",1,"Maybe",0.5,"Yes",1
+"731",26,"M","United States","OH","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"732",33,"F","Canada",NA,"Americas","Yes",1,"No",0,"Yes",1,"Very difficult",0.5,"No",0,2.5,"Yes",1,"No",0,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"733",35,"F","United States","WA","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"734",45,"M","United States","CA","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"735",25,"M","United States","SC","Americas","No",0,"No",0,"Yes",1,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"736",33,"F","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"737",25,"M","United States","MN","Americas","No",0,"Don't know",0.5,"Yes",1,"Very easy",0.5,"Don't know",0.5,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"Maybe",0.5,"Yes",1
+"738",24,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"No",0,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"739",40,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"740",46,"M","United States","PA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"Maybe",0.5
+"741",34,"M","United States","VT","Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"Yes",1,"No",0,"No",0,"No",0
+"742",32,"M","United Kingdom",NA,"Europe","Yes",1,"No",0,"No",0,"Very easy",0.5,"Yes",1,2.5,"No",0.5,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"Yes",1
+"743",33,"F","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Very easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"Yes",1,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"744",35,"M","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"Don't know",0.5,1.5,"No",0,"Yes",1,"No",0,NA,NA,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"745",20,"F","United States","NY","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,2.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"746",32,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"747",36,"F","United States","TN","Americas","No",0,"Yes",1,"Yes",1,"Somewhat easy",0.5,"No",0,2.5,"Yes",1,"Yes",1,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"748",25,"M","United Kingdom",NA,"Europe","No",0,"No",0,"Yes",1,"Very easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"749",41,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat difficult",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"Maybe",0.5,"Maybe",0.5
+"750",26,"F","United States","NY","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"751",38,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very easy",0.5,"Don't know",0.5,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"Maybe",0.5,"Yes",1
+"752",32,"M","United States","NC","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"753",32,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"Yes",1,2.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"754",26,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"755",38,"M","Canada",NA,"Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"Maybe",0.5
+"756",32,"M","Canada",NA,"Americas","Yes",1,"Don't know",0.5,"Yes",1,"Very easy",0.5,"No",0,3,"No",0.5,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"No",0,"Maybe",0.5,"Maybe",0.5
+"757",31,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Never",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"758",30,"M","United States","MN","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"No",0
+"759",29,"M","United States","NC","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"760",31,"M","United Kingdom",NA,"Europe","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Yes",1,"No",0,"No",0
+"761",26,"M","United States","TX","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"Maybe",0.5,"Maybe",0.5
+"762",32,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Don't know",0.5,"No",0,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"No",0
+"763",32,"F","United States","PA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"764",29,"M","United States","IL","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"Maybe",0.5,"Yes",1
+"765",40,"F","United States","MN","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"Maybe",0.5
+"766",23,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"Yes",1,"Yes",1
+"767",38,"M","United States","NY","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat difficult",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"No",0,NA,NA,"No",0,"No",0,"No",0,"No",0
+"768",26,"F","United States","MI","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"Maybe",0.5
+"769",29,"M","United States","OH","Americas","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"Don't know",0.5,"No",0,"Yes",1
+"770",32,"Others","United States","NY","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"771",35,"F","United States","IN","Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"772",28,"F","United States","VA","Americas","No",0,"No",0,"No",0,"Very difficult",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"No",0
+"773",56,"F","United States","OR","Americas","Yes",1,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,3.5,"No",0.5,"Don't know",0.5,"No",0,"Rarely",1,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"774",38,"M","United States","AL","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"No",0
+"775",40,"M","United States","AL","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"776",44,"M","United States","OH","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"No",0,"No",0
+"777",34,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"Yes",1,"Yes",1,"No",0,"Sometimes",2,"Not sure",0.5,"Yes",1,"No",0,"Maybe",0.5
+"778",37,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"No",0,2,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Yes",1
+"779",32,"M","United States","TX","Americas","No",0,"Yes",1,"Yes",1,"Very difficult",0.5,"No",0,2.5,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"Don't know",0.5,"No",0,"No",0
+"780",28,"F","United States","TX","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"No",0,"No",0,"No",0,"No",0
+"781",24,"M","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,NA,NA,"Not sure",0.5,"No",0,"No",0,"Maybe",0.5
+"782",23,"M","United States","TX","Americas","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"No",0,"No",0,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"783",33,"M","United States","FL","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"784",38,"M","United States","TX","Americas","No",0,"Yes",1,"Yes",1,"Very easy",0.5,"Yes",1,3.5,"No",0,"Yes",1,"Yes",1,"Sometimes",2,"No",0,"Yes",1,"No",0,"No",0
+"785",46,"M","United States","CA","Americas","No",0,"Don't know",0.5,"No",0,"Don't know",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"No",0,"No",0,"No",0
+"786",46,"M","United States","MD","Americas","No",0,"Don't know",0.5,"Yes",1,"Don't know",0.5,"Don't know",0.5,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Not sure",0.5,"Don't know",0.5,"Yes",1,"Yes",1
+"787",23,"Others","United Kingdom",NA,"Europe","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"No",0,"Don't know",0.5,"No",0,"Never",0,"No",0,"No",0,"No",0,"Maybe",0.5
+"788",25,"M","United States","MN","Americas","No",0,"Don't know",0.5,"No",0,"Somewhat easy",0.5,"No",0,1,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"789",23,"F","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Very easy",0.5,"No",0,0.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"790",24,"Others","United Kingdom",NA,"Europe","Yes",1,"No",0,"Yes",1,"Don't know",0.5,"No",0,2.5,"No",0.5,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"No",0,"No",0,"Maybe",0.5
+"791",23,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Don't know",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"792",23,"M","Canada",NA,"Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,2.5,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"Yes",1,"Don't know",0.5,"No",0,"No",0
+"793",60,"M","United States","CA","Americas","No",0,"Don't know",0.5,"Yes",1,"Somewhat easy",0.5,"Yes",1,3,"No",0,"Don't know",0.5,"Yes",1,"Often",0,"No",0,"Don't know",0.5,"No",0,"Maybe",0.5
+"794",43,"F","United States","FL","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"No",0,2.5,"Yes",1,"Don't know",0.5,"Yes",1,"Rarely",1,"Yes",1,"Yes",1,"No",0,"No",0
+"795",32,"M","United States","OR","Americas","No",0,"Yes",1,"No",0,"Somewhat easy",0.5,"Don't know",0.5,2,"No",0,"Don't know",0.5,"No",0,"Never",0,"Not sure",0.5,"Yes",1,"Maybe",0.5,"Yes",1
+"796",41,"F","United States","WA","Americas","No",0,"Yes",1,"No",0,"Don't know",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"No",0,"Don't know",0.5,"No",0,"No",0
+"797",30,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Very easy",0.5,"Don't know",0.5,2,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"Maybe",0.5,"Maybe",0.5
+"798",30,"M","United States","CA","Americas","Yes",1,"Yes",1,"No",0,"Don't know",0.5,"Yes",1,3.5,"Yes",1,"Don't know",0.5,"Yes",1,"Often",0,"Not sure",0.5,"Yes",1,"Maybe",0.5,"Maybe",0.5
+"799",29,"M","United States","NC","Americas","No",0,"Yes",1,"Yes",1,"Don't know",0.5,"Yes",1,3.5,"Yes",1,"Yes",1,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"Maybe",0.5
+"800",26,"M","United Kingdom",NA,"Europe","No",0,"No",0,"No",0,"Somewhat easy",0.5,"No",0,0.5,"No",0,"Don't know",0.5,"Yes",1,NA,NA,"No",0,"No",0,"No",0,"No",0
+"801",32,"M","United States","IL","Americas","No",0,"Yes",1,"Yes",1,"Somewhat difficult",0.5,"No",0,2.5,"Yes",1,"Yes",1,"Yes",1,"Often",0,"Yes",1,"No",0,"No",0,"No",0
+"802",34,"M","United States","CA","Americas","No",0,"Yes",1,"No",0,"Somewhat difficult",0.5,"No",0,1.5,"Yes",1,"Don't know",0.5,"Yes",1,"Sometimes",2,"Yes",1,"No",0,"No",0,"No",0
+"803",46,"F","United States","NC","Americas","No",0,"No",0,"Yes",1,"Don't know",0.5,"No",0,1.5,"No",0,"Don't know",0.5,"No",0,NA,NA,"Yes",1,"No",0,"No",0,"No",0

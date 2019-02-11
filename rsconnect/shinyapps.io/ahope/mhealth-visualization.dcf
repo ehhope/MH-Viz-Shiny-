@@ -1,0 +1,10 @@
+name: mhealth-visualization
+title:
+username:
+account: ahope
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 706786
+bundleId: 1868664
+url: https://ahope.shinyapps.io/mhealth-visualization/
+when: 1549879849.58658
